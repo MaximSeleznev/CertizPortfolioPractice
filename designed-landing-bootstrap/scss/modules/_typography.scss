@@ -1,0 +1,52 @@
+/* Headings */
+
+header{
+	color:$light-color;
+	h2{
+		font-size: 48px;
+		font-weight: 700;
+		color:$light-color;
+	}
+	p{
+		font-size: 18px;
+		font-weight: 400;
+	}
+
+	.heading-primary{
+		display:inline-block;
+		@include add-border(1px, #ffffff, all);
+		font-size: 54px;/* Приближение из-за подстановки шрифтов */
+		font-weight: 700;
+		padding-right:30px;
+
+		.h1-white{
+			padding:30px 30px;
+			display:inline-block;
+			background:#ffffff;
+			color:$secondary-color;
+		}
+	}
+}
+
+h4{
+	margin-top:100px;
+}
+
+h5{
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 18px;
+}
+
+.h5-secondary{
+	color:$secondary-color;
+}
+
+h3{
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.h3-secondary{
+	color:$secondary-color;
+}

@@ -1,0 +1,273 @@
+/* 
+	ZebraInc bootstrap sass theme
+	developer: Maxim Seleznev
+	version: 0.1
+*/
+/* BASE - styles, variables, mixins, etc */
+/* Font Colors */
+/* Bg Colors */
+/*  Showcase area */
+/* mixin */
+/* line 1, ../scss/base/_base.scss */
+body {
+  font-family: HelveticaNeueCyr;
+}
+
+/* MODULES - individuals site components */
+/* Headings */
+/* line 3, ../scss/modules/_typography.scss */
+.section-circles h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 116.05px;
+  font-weight: 400;
+  line-height: 19.72px;
+}
+
+/* line 11, ../scss/modules/_typography.scss */
+footer h3 {
+  display: inline-block;
+}
+
+/* Brand colors */
+/* line 17, ../scss/modules/_typography.scss */
+.z-1 {
+  color: #05b5a9;
+}
+
+/* line 20, ../scss/modules/_typography.scss */
+.z-2 {
+  color: #fec8ce;
+}
+
+/* buttons */
+/* line 3, ../scss/modules/_buttons.scss */
+.section-primary button {
+  background-color: #cf1a2b;
+  width: 215px;
+  height: 48px;
+  color: #ffffff;
+  font-size: 28.05px;
+  font-weight: 400;
+  line-height: 19.72px;
+}
+
+/* Sections */
+/* line 3, ../scss/modules/_sections.scss */
+.section-shirts {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  height: 340px;
+}
+/* line 7, ../scss/modules/_sections.scss */
+.section-shirts div {
+  display: flex;
+  justify-content: space-around;
+}
+/* line 11, ../scss/modules/_sections.scss */
+.section-shirts img {
+  width: 20%;
+}
+
+/* line 16, ../scss/modules/_sections.scss */
+.section-circles {
+  background: url(../img/banner2.png) no-repeat;
+  background-size: 100%;
+  padding-top: 80px;
+}
+/* line 21, ../scss/modules/_sections.scss */
+.section-circles .rings {
+  background: url(../img/rings.png) no-repeat;
+  background-size: 100%;
+  height: 500px;
+  margin-top: 80px;
+}
+
+/* line 30, ../scss/modules/_sections.scss */
+.section-primary h3 {
+  display: inline-block;
+  margin: 20px 0 0 0;
+}
+/* line 36, ../scss/modules/_sections.scss */
+.section-primary .justify {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+/* line 41, ../scss/modules/_sections.scss */
+.section-primary .justify .annotation {
+  width: 14%;
+}
+/* line 44, ../scss/modules/_sections.scss */
+.section-primary .justify .annotation img {
+  border: 1px solid #cccccc;
+  width: 100%;
+}
+/* line 49, ../scss/modules/_sections.scss */
+.section-primary .justify .annotation h5 {
+  text-align: center;
+}
+
+/* line 1, ../scss/modules/_components.scss */
+.section-primary .levis {
+  position: relative;
+  top: -16px;
+}
+
+/* LAYOUTS - page layout styles */
+/* Footer */
+/* line 3, ../scss/layouts/_footer.scss */
+footer {
+  height: 104px;
+  background: #404049;
+  color: #626262;
+}
+/* line 8, ../scss/layouts/_footer.scss */
+footer i {
+  margin: 0 15px;
+  font-size: 32px;
+}
+
+/* line 1, ../scss/layouts/_header.scss */
+.banner {
+  width: 100%;
+  height: 926px;
+  background: url(../img/banner1.png) no-repeat;
+  background-size: 100%;
+}
+
+/* navbar */
+/* line 3, ../scss/layouts/_nav.scss */
+.navbar {
+  box-shadow: 1px 3px 3px 0px rgba(0, 0, 0, 0);
+  min-height: 86px;
+  background: #fff;
+  margin-bottom: 30px;
+}
+/* line 10, ../scss/layouts/_nav.scss */
+.navbar a {
+  min-height: 86px;
+  color: #626262 !important;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 19.72px;
+  padding-bottom: 34px !important;
+  padding-top: 34px !important;
+}
+/* line 20, ../scss/layouts/_nav.scss */
+.navbar .brand {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 19px;
+}
+/* line 26, ../scss/layouts/_nav.scss */
+.navbar .nav {
+  padding-left: 16%;
+}
+
+/* line 31, ../scss/layouts/_nav.scss */
+.dropdown-toggle {
+  height: 88px !important;
+  border: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 19.72px;
+  padding-bottom: 34px !important;
+  padding-top: 34px !important;
+  color: #626262;
+}
+
+/* line 43, ../scss/layouts/_nav.scss */
+.dropdown-toggle:hover, .dropdown-toggle:focus {
+  background-color: #cf1a2b !important;
+  color: #959595 !important;
+}
+
+/* line 48, ../scss/layouts/_nav.scss */
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-toggle {
+  background-color: #cf1a2b !important;
+  color: #959595 !important;
+}
+
+/* line 56, ../scss/layouts/_nav.scss */
+.dropdown-menu {
+  width: 606px;
+  height: 384px;
+  background-color: #cf1a2b;
+  border-radius: 0;
+  margin-top: -1.5px;
+  border: 1px solid #cccccc;
+  padding: 0;
+}
+/* line 65, ../scss/layouts/_nav.scss */
+.dropdown-menu a, .dropdown-menu a:hover {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+/* line 70, ../scss/layouts/_nav.scss */
+.dropdown-menu ul {
+  list-style: none;
+  height: 100%;
+  border-right: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  padding: 0;
+}
+/* line 77, ../scss/layouts/_nav.scss */
+.dropdown-menu img {
+  margin-top: 80px;
+  margin-left: 55px;
+  margin-right: auto;
+}
+/* line 82, ../scss/layouts/_nav.scss */
+.dropdown-menu li {
+  padding: 10px;
+}
+/* line 86, ../scss/layouts/_nav.scss */
+.dropdown-menu .divide {
+  border-bottom: 1px solid #cccccc;
+  text-align: center;
+  padding: 25px 10px;
+}
+/* line 91, ../scss/layouts/_nav.scss */
+.dropdown-menu .divide a {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 19px;
+}
+
+@media (max-width: 768px) {
+  /* line 2, ../scss/layouts/_mobile.scss */
+  .banner {
+    height: 300px;
+  }
+
+  /* line 5, ../scss/layouts/_mobile.scss */
+  .nav {
+    padding-left: 0 !important;
+  }
+  /* line 8, ../scss/layouts/_mobile.scss */
+  .nav .btn-group, .nav button {
+    width: 100%;
+    text-align: left;
+  }
+  /* line 13, ../scss/layouts/_mobile.scss */
+  .nav li:hover {
+    background-color: #cf1a2b !important;
+    color: #959595 !important;
+  }
+
+  /* line 19, ../scss/layouts/_mobile.scss */
+  .rings {
+    height: 230px !important;
+  }
+
+  /* line 23, ../scss/layouts/_mobile.scss */
+  .levis-hide img {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+}

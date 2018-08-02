@@ -1,0 +1,25 @@
+﻿body
+{
+	background:url(../img/background.png);
+	font-family: $base-font-family;
+	font-size: $base-font-size;
+	line-height: 1.7m;
+}
+
+a
+{
+	color:$primary-color;
+}
+
+ul,li {
+	list-style:none;
+}
+
+input, textarea, button {
+	@include border-radius(0px);
+}
+
+@font-face {
+ font-family: "Lato";
+ src: url("../fonts/Lato-Black.ttf");
+}
