@@ -1,0 +1,4 @@
+#ignore all dist/ directory
+dist/
+#ignore all node modules
+/node_modules/
