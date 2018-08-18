@@ -1,0 +1,19 @@
+//base fonts
+body {
+    font-family: "Lato" !important;
+}
+.heading {
+    font-family: "Montserrat" !important;
+}
+.gold {
+    color: $gold-color !important;
+}
+h4.heading{
+    font-size: 22px ;
+    font-weight: 700 ;
+    text-align: center;
+    padding-top: 115px;
+    padding-bottom: 19px;
+    text-transform: uppercase;
+    line-height: 18px;
+}

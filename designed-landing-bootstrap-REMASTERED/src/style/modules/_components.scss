@@ -1,0 +1,52 @@
+.golden-line {
+    width: 60px;
+    height: 4px;
+    background-color: $gold-color;
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-top: 32px;
+}
+
+.heading-cover-1 {
+    text-align: center;
+    background: url('../img/bg2.jpg');
+    min-height: 380px;
+    padding-top: 35px;
+    background-size: cover;
+    background-position: 0% 76%;
+
+    h4.heading {
+        color: #ffffff;
+    }
+}
+
+.heading-cover-2 {
+    text-align: center;
+    background: url('../img/bg1.jpg');
+    background-size: cover;
+    min-height: 475px;
+    padding-top: 55px;
+
+    h4.heading {
+        color: #ffffff;
+    }
+
+    img {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 836px;
+    text-align: left;
+    padding-top: 12px;
+    margin: 0 auto 40px;
+
+    button {
+        margin-right: 10px;
+    }
+}

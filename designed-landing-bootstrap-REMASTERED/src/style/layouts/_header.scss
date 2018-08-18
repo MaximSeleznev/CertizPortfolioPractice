@@ -1,0 +1,41 @@
+.cover {
+    max-width: 1600px;
+    margin: 0 auto !important;
+    min-height: 900px;
+    background: url('../img/bg1.jpg');
+    color: #ffffff;
+    padding-top: 530px;
+    padding-left: 86px;
+    background-position: 75% 25%;
+    background-size: cover;
+
+    &-logo {
+        font-size: 48px;
+        font-weight: 700;
+        margin-top: -18px;
+    }
+    &-testimonial {
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: -10px;
+    }
+    &-losung {
+        font-size: 54px;
+        font-weight: 700;
+        border:1px solid white;
+        display: inline-block;
+        padding: 25px 30px;
+        padding-right: 51px;
+        padding-left: 21px;
+        padding-top: 27px;
+        padding-bottom: 21px;
+        margin-top: 25px;
+        margin-left: -4px;
+    }
+    .background-white {
+        background-color: #fff;
+        margin-right: -5px;
+        padding-left: 25px;
+        padding-right: 35px;
+    }
+}

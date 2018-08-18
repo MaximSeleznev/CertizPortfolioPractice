@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #000000 !important;
+    a {
+        color: #ffffff;
+
+        &:hover,:focus,:active {
+            color: $gold-color;
+        }
+    }
+
+    &-brand {
+        font-weight: 700;
+        font-size: 36px !important;
+        padding-left: 50px;
+    }
+    &-nav {
+        margin-left: auto;
+
+        li {
+            margin-right: 50px;
+        }
+    }
+}
+
+nav {
+    max-width: 1600px;
+    margin: 0 auto;
+}

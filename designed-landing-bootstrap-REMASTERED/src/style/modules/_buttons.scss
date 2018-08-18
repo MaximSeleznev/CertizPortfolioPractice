@@ -1,0 +1,25 @@
+.btn-gold {
+    font-size: 14px;
+    font-weight: 700;
+    background-color: $gold-color;
+    color: #ffffff;
+    padding: 16px 28px 20px 24px;
+    border: none;
+}
+
+.gallery-btn {
+    border: 1px solid $grey-color;
+    background-color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    padding: 10px 36px 9px 36px;
+    max-width: 160px;
+    min-width: 87px;
+
+    &:hover,&:focus {
+        color: $gold-color;
+        background-color: $grey-color;
+    }
+
+}
