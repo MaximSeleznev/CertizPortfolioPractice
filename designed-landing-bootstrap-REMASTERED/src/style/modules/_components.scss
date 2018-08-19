@@ -7,6 +7,13 @@
     margin-top: 32px;
 }
 
+.white-line {
+    width: 281px;
+    height: 3px;
+    background-color: #ffffff;
+    display: inline-block;
+}
+
 .heading-cover-1 {
     text-align: center;
     background: url('../img/bg2.jpg');
@@ -24,6 +31,7 @@
     text-align: center;
     background: url('../img/bg1.jpg');
     background-size: cover;
+    background-position: 0% 30%;
     min-height: 475px;
     padding-top: 55px;
 
@@ -34,6 +42,39 @@
     img {
         margin-left: 25px;
         margin-right: 25px;
+    }
+}
+
+.heading-cover-3 {
+    color: #ffffff;
+    min-height: 485px;
+    background: url('../img/bg3.jpg');
+    background-size: cover;
+    background-position: 50% 55%;
+    text-align: center;
+
+    .heading {
+        padding-top: 130px;
+    }
+
+    .heading-testimonial {
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: -2px;
+        margin-bottom: 28px;
+    }
+
+    a {
+        display: block;
+        text-decoration: none;
+        color: $gold-color;
+        text-align: center;
+        margin-top: 2px;
+
+        &:hover,:active,:focus {
+            color: $gold-color;
+            text-decoration: none;
+        }
     }
 }
 

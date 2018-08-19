@@ -291,5 +291,59 @@
 
     .partners {
         margin-top: -40px;
+        margin-bottom: 38px;
+    }
+
+    .heading-testimonials {
+        margin-bottom: 15px;
+    }
+
+    .quote-decoration {
+        display: flex;
+        
+        .golden-line {
+            margin: 0 0px 14px 15px;
+            align-self: flex-end;
+            width: 305px;
+        }
+    }
+
+    .quote-text {
+        border-bottom: 3px solid #111111;
+        font-size: 14px;
+        font-weight: 300;
+        padding: 10px 0px 25px;
+    }
+
+    .col-md-4 {
+        max-width: 405px;
+    }
+
+    .testimonials {
+        justify-content: center;
+        padding-bottom: 185px;
+    }
+
+    .quote-author {
+        display: flex;
+        height: 44px;
+
+        p {
+            margin: 0;
+            padding: 0 20px;
+            text-align: left;
+        }
+
+        .name {
+            margin-top: 10px;
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+        .post {
+            font-size: 14px;
+            font-weight: 300;
+            margin-top: -6px;
+        }
     }
 }

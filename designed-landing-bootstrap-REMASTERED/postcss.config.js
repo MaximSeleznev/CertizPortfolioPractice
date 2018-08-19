@@ -19,7 +19,8 @@ module.exports = {
                 /\.open/,
                 /\.popover/,
                 /\.tooltip/,
-                /\.col/
+                /\.col/,
+                /\.carousel/
             ]
        })
     ]
