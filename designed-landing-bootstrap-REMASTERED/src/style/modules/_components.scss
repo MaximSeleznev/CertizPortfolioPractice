@@ -78,6 +78,33 @@
     }
 }
 
+.heading-cover-4 {
+    color: #ffffff;
+    min-height: 380px;
+    background: url('../img/bg4.jpg');
+    background-size: cover;
+    background-position: 50% 55%;
+    text-align: center;
+
+    .btn-transparent {
+        margin-top: 9px;
+        background: none;
+        border: 1px solid #ffffff;
+        color: #ffffff;
+        padding: 0px 55px;
+        min-height: 50px;
+        vertical-align: middle;
+
+        &:hover,:active {
+            background-color: transparentize($gold-color,.5);
+        }
+    }
+
+    .heading {
+        padding-top: 93px;
+    }
+}
+
 .buttons {
     display: flex;
     flex-wrap: wrap;
@@ -90,4 +117,15 @@
     button {
         margin-right: 10px;
     }
+}
+
+.single-btn {
+    margin-top: 70px;
+    padding-bottom: 155px;
+    .btn-gold {
+        margin-right: -5px;
+        min-height: 51px;
+        padding: 15px 82px; 
+    }
+       
 }

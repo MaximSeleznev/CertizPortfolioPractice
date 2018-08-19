@@ -68,7 +68,10 @@ let conf = {
 
     plugins: [
         new ExtractTextPlugin('css/styles.css'),
-        new CopyWebpackPlugin([ {from: 'src/img', to: 'dist/../img'} ])
+        new CopyWebpackPlugin([ 
+            {from: 'src/img', to: 'dist/../img'},
+            {from: 'src/audio', to: 'dist/../audio'}
+        ])
     ]
 };
 
