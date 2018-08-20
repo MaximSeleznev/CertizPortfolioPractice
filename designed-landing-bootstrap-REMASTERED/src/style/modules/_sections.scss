@@ -1,6 +1,21 @@
 .company {
     background: url('../img/background.png');
-    padding-bottom: 185px;
+    padding-bottom: 163px;
+
+    &-row {
+        justify-content: space-between;
+        max-width: 1200px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+
+        .btn-gold {
+            ma: px;
+        }
+
+        .col-md-6 {
+            text-align: center;
+        }
+    }
 
     &-head {
         text-align: center;
@@ -25,34 +40,29 @@
         border: 1px solid #878787;
         align-items: flex-end;
         width: 270px;
-        height: 148px;
+        height: 151px;
         position: relative;
         padding-bottom: 10px;
         padding-left: 15px;
+        margin-bottom: 20px;
 
         &-consult {
             background: url('../img/company_1.jpg') no-repeat;
             background-size: cover;
-            right: 30px;
-            top: 3px;
         }
         &-photo {
             background: url('../img/company_2.jpg') no-repeat;
             background-size: cover;
-            right: 15px;
-            top: 3px;
         }
         &-design {
             background: url('../img/company_3.jpg') no-repeat;
             background-size: cover;
-            right: 30px;
-            top: 23px;
+            padding-bottom: 15px;
         }
         &-ads {
             background: url('../img/company_4.jpg') no-repeat;
             background-size: cover;
-            top: 23px;
-            right: 15px;
+            padding-bottom: 15px;
         }
     }
 
@@ -70,12 +80,6 @@
 
     .company-heading {
         margin-bottom: 14px;
-    }
-
-    .company-text {
-        padding: 0;
-        left: 15px;
-
     }
 
     &-bio {
@@ -175,7 +179,7 @@
         justify-content: center;
         margin-top: -10px;
         
-        .col-md-3 {
+        .col-xl-3 {
             max-width: 271px;
             min-height: 423px;
             border-bottom: 3px solid $grey-color;
@@ -237,10 +241,6 @@
     &-testimonial {
         letter-spacing: 0.3px;
         margin-top: 15px;
-    }
-
-    .heading {
-        line-height: 11px;
     }
 
     &-blocks {
@@ -316,7 +316,7 @@
         padding: 10px 0px 25px;
     }
 
-    .col-md-4 {
+    .col-xl-4 {
         max-width: 405px;
     }
 
