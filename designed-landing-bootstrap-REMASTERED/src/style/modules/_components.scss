@@ -71,7 +71,7 @@
         text-align: center;
         margin-top: 2px;
 
-        &:hover,:active,:focus {
+        &:hover,&:active,&:focus {
             color: $gold-color;
             text-decoration: none;
         }
@@ -96,8 +96,16 @@
         vertical-align: middle;
         transition:0.5s linear;
 
-        &:hover,:active {
+        &:hover,&:active,&:focus {
             background-color: transparentize($gold-color,.3);
+        }
+
+        .tooltiptext {
+            background-color: $grey-color;
+
+            &::after {
+                border-color: transparent transparent $grey-color transparent;
+            }
         }
     }
 
@@ -186,8 +194,8 @@
     img {
         display: flex;
         align-self: center;
-        width: 50%;
-        height: 70%;
+        min-width: 45%;
+        max-height: 75%;
     }
 }
 

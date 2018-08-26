@@ -23,7 +23,8 @@ module.exports = {
                 /\.carousel/,
                 /\.d-/,
                 /\.img-popup/,
-                /\.img-fade/
+                /\.img-fade/,
+                /\.tooltip/
             ]
        })
     ]

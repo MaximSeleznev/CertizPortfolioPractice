@@ -8,6 +8,7 @@ body {
 .gold {
     color: $gold-color !important;
     display: inline;
+    transition:0.2s linear;
 }
 h4.heading{
     font-size: 22px ;

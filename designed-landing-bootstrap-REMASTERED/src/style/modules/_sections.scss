@@ -28,10 +28,27 @@
         height: 42px;
         padding-bottom: 10px;
         padding-left: 10px;
+        transition:0.3s linear;
 
     
     }
     &-skill {
+
+        &-consult {
+            background: url('../img/company_1.jpg');
+        }
+        &-photo {
+            background: url('../img/company_2.jpg');
+        }
+        &-design {
+            background: url('../img/company_3.jpg');
+            padding-bottom: 15px;
+        }
+        &-ads {
+            background: url('../img/company_4.jpg');
+            padding-bottom: 15px;
+        }
+        
         display: inline-flex;
         border: 1px solid #878787;
         align-items: flex-start;
@@ -41,25 +58,19 @@
         padding-top: 95px;
         padding-left: 15px;
         margin-bottom: 20px;
+        background-size: 105% !important;
+        background-position: 50% 50% !important;
+        transition:0.3s linear;
 
-        &-consult {
-            background: url('../img/company_1.jpg') no-repeat;
-            background-size: cover;
+        &:hover,:focus,:active {
+            background-size: 110% !important;
+
+            .company-title {
+                color: $gold-color;
+            }
         }
-        &-photo {
-            background: url('../img/company_2.jpg') no-repeat;
-            background-size: cover;
-        }
-        &-design {
-            background: url('../img/company_3.jpg') no-repeat;
-            background-size: cover;
-            padding-bottom: 15px;
-        }
-        &-ads {
-            background: url('../img/company_4.jpg') no-repeat;
-            background-size: cover;
-            padding-bottom: 15px;
-        }
+
+        
     }
 
     &-heading {
@@ -186,6 +197,17 @@
             p {
                 width: 100% !important;
             }
+
+            &:hover,:focus,:active {
+
+                .skillset-title {
+                    color: $gold-color;
+                    background-color: lighten($grey-color, .2);
+                    .gold {
+                        color: #fff !important;
+                    }
+                }
+            }
         }
 
         &-title {
@@ -196,6 +218,7 @@
             font-weight: 700;
             margin-bottom: 15px;
             letter-spacing: 1px;
+            transition:0.2s linear;
         }
 
         &-text {
@@ -249,6 +272,10 @@
 
         div, img {
             margin: 6px;
+        }
+
+        img {
+            cursor: pointer;
         }
     }
 
@@ -533,7 +560,6 @@
             padding: 0 38px;
             font-size: 14px;
             font-weight: 400;
-            line-height: 12px;
             text-transform: uppercase;
             margin-right: 26px;
         }
