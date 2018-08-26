@@ -20,7 +20,10 @@ module.exports = {
                 /\.popover/,
                 /\.tooltip/,
                 /\.col/,
-                /\.carousel/
+                /\.carousel/,
+                /\.d-/,
+                /\.img-popup/,
+                /\.img-fade/
             ]
        })
     ]

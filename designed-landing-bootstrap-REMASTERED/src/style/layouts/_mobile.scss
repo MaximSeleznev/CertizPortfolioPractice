@@ -1,0 +1,92 @@
+@media (max-width: 930px) {
+
+    h4.heading {
+        line-height: normal;
+    }
+
+    .cover {
+        padding-top: 230px;
+        min-height: 600px;
+        text-align: center;
+        padding-left: 0;
+
+        &-container {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .logos-carousel {
+        display: block;
+    }
+
+    .heading-cover-2 .feature {
+        display: none;
+    }
+} 
+
+@media (max-width: 880px) {
+    .navbar-nav {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 830px) {
+    .cover-container {
+        padding-left: 0;
+        justify-content: center;
+        background: none;
+        border: 1px solid #ffffff;
+
+        .gold {
+            padding: 0;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        padding: 0;
+        margin: 0;
+    }
+
+
+}
+
+@media (max-width: 690px) {
+    .partners {
+        display: none;
+    }
+    
+    .partners-carousel {
+        display: block;
+    }
+}
+
+@media (max-width: 600px) {
+    .team-carousel {
+        display: block;
+    }
+
+    .team {
+        display: none;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .section-forms-email {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .section-forms-email input {
+        padding-left: 0;
+        font-style: 14px;
+    }
+
+    .section-forms-email .btn-gold {
+        padding: 2px 26px 0;
+    }
+}

@@ -19,8 +19,8 @@
     background: url('../img/bg2.jpg');
     min-height: 380px;
     padding-top: 35px;
+    background-position: 50% 76%;
     background-size: cover;
-    background-position: 0% 76%;
 
     h4.heading {
         color: #ffffff;
@@ -30,10 +30,10 @@
 .heading-cover-2 {
     text-align: center;
     background: url('../img/bg1.jpg');
-    background-size: cover;
-    background-position: 0% 30%;
+    background-position: 50% 30%;
     min-height: 475px;
     padding-top: 55px;
+    background-size: cover;
 
     h4.heading {
         color: #ffffff;
@@ -49,9 +49,9 @@
     color: #ffffff;
     min-height: 485px;
     background: url('../img/bg3.jpg');
-    background-size: cover;
     background-position: 50% 55%;
     text-align: center;
+    background-size: cover;
 
     .heading {
         padding-top: 130px;
@@ -82,9 +82,9 @@
     color: #ffffff;
     min-height: 380px;
     background: url('../img/bg4.jpg');
-    background-size: cover;
     background-position: 50% 55%;
     text-align: center;
+    background-size: cover;
 
     .btn-transparent {
         margin-top: 9px;
@@ -94,9 +94,10 @@
         padding: 0px 55px;
         min-height: 50px;
         vertical-align: middle;
+        transition:0.5s linear;
 
         &:hover,:active {
-            background-color: transparentize($gold-color,.5);
+            background-color: transparentize($gold-color,.3);
         }
     }
 
@@ -111,8 +112,8 @@
     justify-content: space-around;
     max-width: 836px;
     text-align: left;
-    padding-top: 12px;
-    margin: 0 auto 40px;
+    padding-top: 5px;
+    margin: -7px auto 30px;
 
     button {
         margin-right: 10px;
@@ -128,4 +129,81 @@
         padding: 15px 82px; 
     }
        
+}
+
+
+.team-carousel {
+    max-width: 384px;
+    margin: 30px auto;  
+    display: none;
+    
+
+    .carousel-caption {
+        padding-bottom: 0;
+        margin-bottom: -10px;
+    }
+    
+    p{
+        background-color: $grey-color;
+        min-height: 30px;
+    }
+}
+
+.logos-carousel, .partners-carousel {
+    display: none;
+    max-width: 250px;
+    margin: 30px auto;
+}
+
+.partners-carousel {
+    margin-top: -20px;
+    margin-bottom: -115px;
+}
+
+.modal-content {
+    img {
+        width: 100%;
+        height: 50%;
+    }
+
+    iframe {
+        width: 100%;
+        height: 250px;
+    }
+}
+
+.img-popup {
+     z-index: 9999;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background-color: #7e7e7e7e;
+    
+
+
+    img {
+        display: flex;
+        align-self: center;
+        width: 50%;
+        height: 70%;
+    }
+}
+
+.img-fadein {
+    animation: fadein 0.5s;
+}
+.img-fadeout {
+    animation: fadeout 0.5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
 }
