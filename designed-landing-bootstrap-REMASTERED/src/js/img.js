@@ -10,7 +10,6 @@ for (let i=0; i<img.length; i++) {
 function popup(event) {
     let target = event.target;
     let src = target.src;
-    console.log(src);
     let div = document.createElement('div');
     div.classList.add('img-popup', 'img-fadein');
     div.innerHTML = `<img src="${src}" class="gallery-img" alt="">`;

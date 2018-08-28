@@ -45,7 +45,7 @@ function tooltipBlur(event) {
             tooltip.style.visibility = 'hidden';
         }, 400)
 
-        isVisible = !isVisible;
+        isVisible = false;
 }
 
 function textReset() {

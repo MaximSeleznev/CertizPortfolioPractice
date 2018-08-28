@@ -41,9 +41,9 @@ button {
 
     .tooltiptext {
         visibility: hidden;
-        min-width: 180px;
+        min-width: inherit;
         top: 115%;
-        left: 40%;
+        right: 0%;
         background-color: $gold-color;
         color: #fff;
         text-align: center;
@@ -57,7 +57,7 @@ button {
             content: " ";
             position: absolute;
             bottom: 100%;  /* At the top of the tooltip */
-            left: 10%;
+            left: 50%;
             margin-left: -5px;
             border-width: 5px;
             border-style: solid;
