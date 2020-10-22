@@ -1,3 +1,7 @@
+section {
+    margin: 0 auto;
+}
+
 .company {
     background: url('../img/background.png');
     padding-bottom: 163px;
@@ -59,7 +63,7 @@
         padding-left: 15px;
         margin-bottom: 20px;
         background-size: 105% !important;
-        background-position: 50% 50% !important;
+        // background-position: 50% 50% !important;
         transition:0.3s linear;
 
         &:hover,:focus,:active {
@@ -158,12 +162,12 @@
             align-items: flex-end;
             margin-bottom: 1px;
             padding-left: 10px;
-            background-position: center;
+            // background-position: center;
             background-size: 101%;
             transition: 0.3s linear;
 
             &:hover,:active {
-                background-position: 50% 50%;
+                // background-position: 50% 50%;
                 background-size: 110%;
 
                 p {
@@ -388,6 +392,7 @@
 }
 
 .section-media {
+    padding: 0 150px;
     text-align: center;
     background: url('../img/background.png');
 
